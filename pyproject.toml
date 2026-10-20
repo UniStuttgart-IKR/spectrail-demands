@@ -1,0 +1,23 @@
+[project]
+name = "spectrail-demands"
+version = "0.1.0"
+description = "Demand generator of the spectrail-rsa-episodes dataset: dynamic RSA traffic on Topology Zoo networks"
+readme = "README.md"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSE-DATA"]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "networkx>=3.0"]
+
+[project.optional-dependencies]
+duckdb = ["duckdb>=1.0"]
+test = ["pytest>=8", "scipy>=1.10", "duckdb>=1.0"]
+
+[project.scripts]
+spectrail-demands = "spectrail_demands.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/spectrail_demands"]

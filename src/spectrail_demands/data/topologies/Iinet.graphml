@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="xcoord">-34.93333</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">138.6</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Adelaide</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-34.93333</data>
+      <data key="Longitude">138.6</data>
+    </node>
+    <node id="1">
+      <data key="xcoord">-31.93333</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">115.83333</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Perth</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-31.93333</data>
+      <data key="Longitude">115.83333</data>
+    </node>
+    <node id="2">
+      <data key="xcoord">-27.46794</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">153.02809</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Brisbane</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-27.46794</data>
+      <data key="Longitude">153.02809</data>
+    </node>
+    <node id="3">
+      <data key="xcoord">-37.814</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">144.96332</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Melbourne</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-37.814</data>
+      <data key="Longitude">144.96332</data>
+    </node>
+    <node id="4">
+      <data key="xcoord">-33.86785</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">151.20732</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Sydney2</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-33.86785</data>
+      <data key="Longitude">151.20732</data>
+    </node>
+    <node id="5">
+      <data key="xcoord">-42.87936</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">147.32941</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Hobart</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-42.87936</data>
+      <data key="Longitude">147.32941</data>
+    </node>
+    <node id="6">
+      <data key="xcoord">-35.28346</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">149.12807</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Canberra</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-35.28346</data>
+      <data key="Longitude">149.12807</data>
+    </node>
+    <node id="7">
+      <data key="xcoord">-12.46113</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">130.84185</data>
+      <data key="Country">Australia</data>
+      <data key="routerports">20</data>
+      <data key="label">Darwin</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">-12.46113</data>
+      <data key="Longitude">130.84185</data>
+    </node>
+    <edge id="e1" source="0" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="0" target="4">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e4" source="0" target="6">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e0" source="0" target="7">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="1" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e6" source="1" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e15" source="2" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e21" source="3" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e8" source="4" target="0">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e6" source="4" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e15" source="4" target="2">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e21" source="4" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e22" source="4" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e20" source="4" target="6">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e22" source="5" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="6" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e20" source="6" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e0" source="7" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+  </graph>
+</graphml>

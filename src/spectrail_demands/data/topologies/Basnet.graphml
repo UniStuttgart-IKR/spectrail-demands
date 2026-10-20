@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="LinkSpeed" attr.type="string" for="node" id="LinkSpeed"/>
+  <key attr.name="LinkLabel" attr.type="string" for="node" id="LinkLabel"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="LinkSpeedRaw" attr.type="float" for="node" id="LinkSpeedRaw"/>
+  <key attr.name="LinkSpeedUnits" attr.type="string" for="node" id="LinkSpeedUnits"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="xcoord">53.67679</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">23.83029</data>
+      <data key="Country">Belarus</data>
+      <data key="routerports">20</data>
+      <data key="label">Grodno</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.67679</data>
+      <data key="Longitude">23.83029</data>
+    </node>
+    <node id="1">
+      <data key="xcoord">53.9</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">27.56667</data>
+      <data key="Country">Belarus</data>
+      <data key="routerports">20</data>
+      <data key="label">Minsk</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.9</data>
+      <data key="Longitude">27.56667</data>
+    </node>
+    <node id="2">
+      <data key="xcoord">55.19048</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">30.2033</data>
+      <data key="Country">Belarus</data>
+      <data key="routerports">20</data>
+      <data key="label">Vitebsk</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">55.19048</data>
+      <data key="Longitude">30.2033</data>
+    </node>
+    <node id="3">
+      <data key="xcoord">53.9141</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">30.33764</data>
+      <data key="Country">Belarus</data>
+      <data key="routerports">20</data>
+      <data key="label">Mogilev</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.9141</data>
+      <data key="Longitude">30.33764</data>
+    </node>
+    <node id="4">
+      <data key="xcoord">52.43826</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">30.98227</data>
+      <data key="Country">Belarus</data>
+      <data key="routerports">20</data>
+      <data key="label">Gomel</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">52.43826</data>
+      <data key="Longitude">30.98227</data>
+    </node>
+    <node id="5">
+      <data key="xcoord">52.09755</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">23.68775</data>
+      <data key="Country">Belarus</data>
+      <data key="routerports">20</data>
+      <data key="label">Brest</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">52.09755</data>
+      <data key="Longitude">23.68775</data>
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e1" source="1" target="0">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e2" source="1" target="2">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e3" source="1" target="3">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e4" source="1" target="4">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e5" source="1" target="5">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e6" source="2" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e7" source="3" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e8" source="4" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e9" source="5" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">2 Mbps</data>
+      <data key="key">0</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="type" attr.type="string" for="node" id="type"/>
+  <key attr.name="LinkNote" attr.type="string" for="node" id="LinkNote"/>
+  <key attr.name="LinkSpeed" attr.type="string" for="node" id="LinkSpeed"/>
+  <key attr.name="LinkLabel" attr.type="string" for="node" id="LinkLabel"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="LinkSpeedRaw" attr.type="float" for="node" id="LinkSpeedRaw"/>
+  <key attr.name="LinkSpeedUnits" attr.type="string" for="node" id="LinkSpeedUnits"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="label">Soma</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.43333</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.43333</data>
+      <data key="ycoord">-15.53333</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-15.53333</data>
+    </node>
+    <node id="1">
+      <data key="label">Basse</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.31667</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.31667</data>
+      <data key="ycoord">-14.21667</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-14.21667</data>
+    </node>
+    <node id="2">
+      <data key="label">Kerewan</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.48944</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.48944</data>
+      <data key="ycoord">-16.09111</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-16.09111</data>
+    </node>
+    <node id="3">
+      <data key="label">Bakau</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.47806</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.47806</data>
+      <data key="ycoord">-16.68194</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-16.68194</data>
+    </node>
+    <node id="4">
+      <data key="label">Bansang</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.43333</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.43333</data>
+      <data key="ycoord">-14.65</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-14.65</data>
+    </node>
+    <node id="5">
+      <data key="label">Farafenni</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.56667</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.56667</data>
+      <data key="ycoord">-15.6</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-15.6</data>
+    </node>
+    <node id="6">
+      <data key="label">Yundum</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">13.3625</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">13.3625</data>
+      <data key="ycoord">-16.68611</data>
+      <data key="Country">Gambia</data>
+      <data key="type">Core Node</data>
+      <data key="Longitude">-16.68611</data>
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e1" source="0" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e2" source="0" target="6">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e3" source="1" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e4" source="1" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e5" source="2" target="3">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e6" source="2" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e7" source="3" target="2">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e8" source="3" target="6">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e9" source="4" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e10" source="5" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e11" source="5" target="2">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e12" source="6" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+      <data key="LinkLabel">2 Mbit/s</data>
+      <data key="LinkNote">it/s</data>
+      <data key="LinkSpeed">2</data>
+      <data key="LinkSpeedRaw">2.0e6</data>
+      <data key="LinkSpeedUnits">M</data>
+    </edge>
+    <edge id="e13" source="6" target="3">
+      <data key="fiberslots">320</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,14 @@
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+IKRNetBase = "713e90cf-1300-4c73-9650-f97dcd4a664f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[sources]
+IKRNetBase = {url = "https://github.com/UniStuttgart-IKR/IKRNetBase.git", rev = "a7c3432a43c90ed8cc8e86c902004dcec8d85fa9"}
+
+[compat]
+Distributions = "=0.25.122"
+Graphs = "=1.13.3"
+IKRNetBase = "=1.1.0"
+julia = "1.10"

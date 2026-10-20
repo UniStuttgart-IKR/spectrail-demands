@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="type" attr.type="string" for="node" id="type"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="label">Weizmann Institute</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">31.89694</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">31.89694</data>
+      <data key="ycoord">34.81861</data>
+      <data key="Country">Israel</data>
+      <data key="type">Purple Node</data>
+      <data key="Longitude">34.81861</data>
+    </node>
+    <node id="1">
+      <data key="label">Open University</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">32.18333</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">32.18333</data>
+      <data key="ycoord">34.86667</data>
+      <data key="Country">Israel</data>
+      <data key="type">Purple Node</data>
+      <data key="Longitude">34.86667</data>
+    </node>
+    <node id="2">
+      <data key="label">Ben Gurion University</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">29.56111</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">29.56111</data>
+      <data key="ycoord">34.95167</data>
+      <data key="Country">Israel</data>
+      <data key="type">Purple Node</data>
+      <data key="Longitude">34.95167</data>
+    </node>
+    <node id="3">
+      <data key="label">Hebrew University</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">31.77902</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">31.77902</data>
+      <data key="ycoord">35.2253</data>
+      <data key="Country">Israel</data>
+      <data key="type">Purple Node</data>
+      <data key="Longitude">35.2253</data>
+    </node>
+    <node id="4">
+      <data key="label">Technion</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">32.81556</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">32.81556</data>
+      <data key="ycoord">34.98917</data>
+      <data key="Country">Israel</data>
+      <data key="type">Purple Node</data>
+      <data key="Longitude">34.98917</data>
+    </node>
+    <node id="5">
+      <data key="label">Tel Aviv University</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">32.06667</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">32.06667</data>
+      <data key="ycoord">34.76667</data>
+      <data key="Country">Israel</data>
+      <data key="type">Purple Node</data>
+      <data key="Longitude">34.76667</data>
+    </node>
+    <edge id="e0" source="0" target="5">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e1" source="1" target="4">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e2" source="1" target="5">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e3" source="2" target="5">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e4" source="3" target="5">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e5" source="4" target="1">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e6" source="4" target="5">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e7" source="5" target="0">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e8" source="5" target="1">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e9" source="5" target="2">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e10" source="5" target="3">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e11" source="5" target="4">
+      <data key="fiberslots">320</data>
+    </edge>
+  </graph>
+</graphml>

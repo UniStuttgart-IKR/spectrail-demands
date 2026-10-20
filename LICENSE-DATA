@@ -1,0 +1,13 @@
+The data files under src/spectrail_demands/data/ (parameters.csv and the
+GraphML files in topologies/) are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0), the licence of the
+spectrail-rsa-episodes dataset.
+
+Copyright (c) 2026 Nicolas Hornek
+
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:    https://creativecommons.org/licenses/by/4.0/
+
+The topologies derive from the Internet Topology Zoo (S. Knight et al.,
+"The Internet Topology Zoo", IEEE JSAC 29(9), 2011) and from the DeepRMSA
+link lists (X. Chen et al., J. Lightw. Technol. 37(16), 2019).

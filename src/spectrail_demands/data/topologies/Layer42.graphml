@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="xcoord">47.60621</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-122.33207</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Seattle</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">47.60621</data>
+      <data key="Longitude">-122.33207</data>
+    </node>
+    <node id="1">
+      <data key="xcoord">37.77493</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-122.41942</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">San Francisco</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">37.77493</data>
+      <data key="Longitude">-122.41942</data>
+    </node>
+    <node id="2">
+      <data key="xcoord">34.05223</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-118.24368</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Los Angeles</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">34.05223</data>
+      <data key="Longitude">-118.24368</data>
+    </node>
+    <node id="3">
+      <data key="xcoord">41.85003</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-87.65005</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Chicago</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">41.85003</data>
+      <data key="Longitude">-87.65005</data>
+    </node>
+    <node id="4">
+      <data key="xcoord">40.71427</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-74.00597</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">New York City</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">40.71427</data>
+      <data key="Longitude">-74.00597</data>
+    </node>
+    <node id="5">
+      <data key="xcoord">38.89511</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-77.03637</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Washington DC</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">38.89511</data>
+      <data key="Longitude">-77.03637</data>
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e0" source="1" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="1" target="2">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="1" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e3" source="1" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="2" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="3" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="3" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e5" source="3" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="4" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e6" source="4" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e3" source="5" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e5" source="5" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e6" source="5" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="LinkNote" attr.type="string" for="node" id="LinkNote"/>
+  <key attr.name="LinkLabel" attr.type="string" for="node" id="LinkLabel"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="LinkType" attr.type="string" for="node" id="LinkType"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="xcoord">37.44188</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-122.14302</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Palo Alto</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">37.44188</data>
+      <data key="Longitude">-122.14302</data>
+    </node>
+    <node id="1">
+      <data key="xcoord">34.05223</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-118.24368</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Los Angeles</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">34.05223</data>
+      <data key="Longitude">-118.24368</data>
+    </node>
+    <node id="2">
+      <data key="xcoord">39.73915</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-104.9847</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Denver</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">39.73915</data>
+      <data key="Longitude">-104.9847</data>
+    </node>
+    <node id="3">
+      <data key="xcoord">41.85003</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-87.65005</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Chicago</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">41.85003</data>
+      <data key="Longitude">-87.65005</data>
+    </node>
+    <node id="4">
+      <data key="xcoord">38.90122</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-77.26526</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Vienna</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">38.90122</data>
+      <data key="Longitude">-77.26526</data>
+    </node>
+    <node id="5">
+      <data key="xcoord">33.749</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-84.38798</data>
+      <data key="Country">United States</data>
+      <data key="routerports">20</data>
+      <data key="label">Atlanta</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">33.749</data>
+      <data key="Longitude">-84.38798</data>
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e1" source="0" target="2">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e2" source="0" target="4">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e3" source="1" target="0">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e4" source="1" target="5">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e5" source="2" target="0">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e6" source="2" target="3">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e7" source="3" target="2">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e8" source="3" target="4">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e9" source="4" target="0">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e10" source="4" target="3">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e11" source="4" target="5">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e12" source="5" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+    <edge id="e13" source="5" target="4">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">45 Mbps DS-3</data>
+      <data key="key">0</data>
+      <data key="LinkNote">45 Mbps</data>
+      <data key="LinkType">DS-3</data>
+    </edge>
+  </graph>
+</graphml>

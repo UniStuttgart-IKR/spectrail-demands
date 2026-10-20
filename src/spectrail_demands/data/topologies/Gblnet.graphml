@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="xcoord">53.07897</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-0.14008</data>
+      <data key="Country">United Kingdom</data>
+      <data key="routerports">20</data>
+      <data key="label">New York</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.07897</data>
+      <data key="Longitude">-0.14008</data>
+    </node>
+    <node id="1">
+      <data key="xcoord">51.50853</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">-0.12574</data>
+      <data key="Country">United Kingdom</data>
+      <data key="routerports">20</data>
+      <data key="label">London</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">51.50853</data>
+      <data key="Longitude">-0.12574</data>
+    </node>
+    <node id="2">
+      <data key="xcoord">59.33258</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">18.0649</data>
+      <data key="Country">Sweden</data>
+      <data key="routerports">20</data>
+      <data key="label">Stockholm</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">59.33258</data>
+      <data key="Longitude">18.0649</data>
+    </node>
+    <node id="3">
+      <data key="xcoord">59.89444</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">30.26417</data>
+      <data key="Country">Russia</data>
+      <data key="routerports">20</data>
+      <data key="label">St Petersburg</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">59.89444</data>
+      <data key="Longitude">30.26417</data>
+    </node>
+    <node id="4">
+      <data key="xcoord">55.75222</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">37.61556</data>
+      <data key="Country">Russia</data>
+      <data key="routerports">20</data>
+      <data key="label">Moscow</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">55.75222</data>
+      <data key="Longitude">37.61556</data>
+    </node>
+    <node id="5">
+      <data key="xcoord">52.37403</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">4.88969</data>
+      <data key="Country">Netherlands</data>
+      <data key="routerports">20</data>
+      <data key="label">Amsterdam</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">52.37403</data>
+      <data key="Longitude">4.88969</data>
+    </node>
+    <node id="6">
+      <data key="xcoord">50.11667</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">8.68333</data>
+      <data key="Country">Germany</data>
+      <data key="routerports">20</data>
+      <data key="label">Frankfurt</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">50.11667</data>
+      <data key="Longitude">8.68333</data>
+    </node>
+    <node id="7">
+      <data key="xcoord">48.85341</data>
+      <data key="oxc">true</data>
+      <data key="ycoord">2.3488</data>
+      <data key="Country">France</data>
+      <data key="routerports">20</data>
+      <data key="label">Paris</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">48.85341</data>
+      <data key="Longitude">2.3488</data>
+    </node>
+    <edge id="e0" source="0" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="1" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="2" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e3" source="2" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="3" target="2">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="3" target="4">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="4" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e0" source="5" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="5" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e3" source="5" target="2">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e5" source="5" target="6">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e6" source="5" target="7">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e5" source="6" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e6" source="7" target="5">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+  </graph>
+</graphml>

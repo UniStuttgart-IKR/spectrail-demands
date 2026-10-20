@@ -1,0 +1,115 @@
+traffic_set,topology,role,nodes,directed_edges,pattern,demandnum,servicetime,interarrivaltime,spectrumslotnumber,demandvalues
+demands50,Basnet,reference,6,10,constanterlang,1400,192.02765841313115,1.0,50,2 3 4 5
+demands50,Basnet,reference,6,10,mouseelephant,1400,192.02765841313115,1.0,50,2 3 4 5
+demands50,Basnet,reference,6,10,oscillatingarrival,1600,145.3333515997274,1.0,50,2 3 4 5
+demands50,Cost239,deeprmsa,11,52,constanterlang,6530,1184.2026465889116,1.0,50,2 3 4 5
+demands50,Cost239,deeprmsa,11,52,mouseelephant,6530,1184.2026465889116,1.0,50,2 3 4 5
+demands50,Cost239,deeprmsa,11,52,oscillatingarrival,7910,859.7139906984532,1.0,50,2 3 4 5
+demands50,Dfn,large,47,146,constanterlang,9320,1601.5468573336634,1.0,50,2 3 4 5
+demands50,Dfn,large,47,146,mouseelephant,9320,1601.5468573336634,1.0,50,2 3 4 5
+demands50,Dfn,large,47,146,oscillatingarrival,10950,1184.7411389979886,1.0,50,2 3 4 5
+demands50,Epoch,reference,6,14,constanterlang,1770,336.0674698493233,1.0,50,2 3 4 5
+demands50,Epoch,reference,6,14,mouseelephant,1770,336.0674698493233,1.0,50,2 3 4 5
+demands50,Epoch,reference,6,14,oscillatingarrival,2010,232.4171151970616,1.0,50,2 3 4 5
+demands50,Gambia,reference,7,14,constanterlang,1360,295.00646686028557,1.0,50,2 3 4 5
+demands50,Gambia,reference,7,14,mouseelephant,1360,295.00646686028557,1.0,50,2 3 4 5
+demands50,Gambia,reference,7,14,oscillatingarrival,1760,197.34610795211017,1.0,50,2 3 4 5
+demands50,Gblnet,reference,8,14,constanterlang,1310,259.82868549737685,1.0,50,2 3 4 5
+demands50,Gblnet,reference,8,14,mouseelephant,1310,259.82868549737685,1.0,50,2 3 4 5
+demands50,Gblnet,reference,8,14,oscillatingarrival,1720,177.61144779648265,1.0,50,2 3 4 5
+demands50,Getnet,reference,6,14,constanterlang,1770,336.0674698493233,1.0,50,2 3 4 5
+demands50,Getnet,reference,6,14,mouseelephant,1770,336.0674698493233,1.0,50,2 3 4 5
+demands50,Getnet,reference,6,14,oscillatingarrival,2010,232.4171151970616,1.0,50,2 3 4 5
+demands50,Heanet,reference,4,8,constanterlang,1400,221.65390487883508,1.0,50,2 3 4 5
+demands50,Heanet,reference,4,8,mouseelephant,1400,221.65390487883508,1.0,50,2 3 4 5
+demands50,Heanet,reference,4,8,oscillatingarrival,1620,158.52692837687508,1.0,50,2 3 4 5
+demands50,HiberniaIreland,reference,6,12,constanterlang,1520,263.8062966243418,1.0,50,2 3 4 5
+demands50,HiberniaIreland,reference,6,12,mouseelephant,1520,263.8062966243418,1.0,50,2 3 4 5
+demands50,HiberniaIreland,reference,6,12,oscillatingarrival,1790,186.2608185695997,1.0,50,2 3 4 5
+demands50,Iinet,reference,8,18,constanterlang,2180,352.5112410865093,1.0,50,2 3 4 5
+demands50,Iinet,reference,8,18,mouseelephant,2180,352.5112410865093,1.0,50,2 3 4 5
+demands50,Iinet,reference,8,18,oscillatingarrival,2510,257.77665352790876,1.0,50,2 3 4 5
+demands50,Ilan,reference,6,12,constanterlang,1710,248.52555815156185,1.0,50,2 3 4 5
+demands50,Ilan,reference,6,12,mouseelephant,1710,248.52555815156185,1.0,50,2 3 4 5
+demands50,Ilan,reference,6,12,oscillatingarrival,1920,185.6154370929264,1.0,50,2 3 4 5
+demands50,Layer42,reference,6,14,constanterlang,1770,336.0674698493233,1.0,50,2 3 4 5
+demands50,Layer42,reference,6,14,mouseelephant,1770,336.0674698493233,1.0,50,2 3 4 5
+demands50,Layer42,reference,6,14,oscillatingarrival,2010,232.4171151970616,1.0,50,2 3 4 5
+demands50,Napnet,reference,6,14,constanterlang,1980,311.60742782921113,1.0,50,2 3 4 5
+demands50,Napnet,reference,6,14,mouseelephant,1980,311.60742782921113,1.0,50,2 3 4 5
+demands50,Napnet,reference,6,14,oscillatingarrival,2210,230.07460278213702,1.0,50,2 3 4 5
+demands50,Netrail,reference,6,16,constanterlang,2170,381.10677511833507,1.0,50,2 3 4 5
+demands50,Netrail,reference,6,16,mouseelephant,2170,381.10677511833507,1.0,50,2 3 4 5
+demands50,Netrail,reference,6,16,oscillatingarrival,2760,278.80349653173585,1.0,50,2 3 4 5
+demands50,Nordu1989,reference,5,8,constanterlang,930,179.07324018841507,1.0,50,2 3 4 5
+demands50,Nordu1989,reference,5,8,mouseelephant,930,179.07324018841507,1.0,50,2 3 4 5
+demands50,Nordu1989,reference,5,8,oscillatingarrival,1160,123.46622127419062,1.0,50,2 3 4 5
+demands50,Nordu2005,reference,6,12,constanterlang,1520,263.8062966243419,1.0,50,2 3 4 5
+demands50,Nordu2005,reference,6,12,mouseelephant,1520,263.8062966243419,1.0,50,2 3 4 5
+demands50,Nordu2005,reference,6,12,oscillatingarrival,1790,186.2608185695997,1.0,50,2 3 4 5
+demands50,NsfnetChen,deeprmsa,14,44,constanterlang,4060,738.4590990916525,1.0,50,2 3 4 5
+demands50,NsfnetChen,deeprmsa,14,44,mouseelephant,4060,738.4590990916525,1.0,50,2 3 4 5
+demands50,NsfnetChen,deeprmsa,14,44,oscillatingarrival,4830,536.1945141335627,1.0,50,2 3 4 5
+demands50,Renater2010,large,37,96,constanterlang,4640,983.8324053096699,1.0,50,2 3 4 5
+demands50,Renater2010,large,37,96,mouseelephant,4640,983.8324053096699,1.0,50,2 3 4 5
+demands50,Renater2010,large,37,96,oscillatingarrival,5660,674.9139778859659,1.0,50,2 3 4 5
+demands50,Sanren,reference,7,14,constanterlang,1510,272.39214625777703,1.0,50,2 3 4 5
+demands50,Sanren,reference,7,14,mouseelephant,1510,272.39214625777703,1.0,50,2 3 4 5
+demands50,Sanren,reference,7,14,oscillatingarrival,1770,190.62915041784984,1.0,50,2 3 4 5
+demands50,Telecomserbia,reference,6,12,constanterlang,1370,264.88643557773025,1.0,50,2 3 4 5
+demands50,Telecomserbia,reference,6,12,mouseelephant,1370,264.88643557773025,1.0,50,2 3 4 5
+demands50,Telecomserbia,reference,6,12,oscillatingarrival,1870,183.73429922361248,1.0,50,2 3 4 5
+demands100,Basnet,reference,6,10,constanterlang,1780,212.0950817154356,1.0,100,4 6 8
+demands100,Basnet,reference,6,10,mouseelephant,1780,212.0950817154356,1.0,100,4 6 8
+demands100,Basnet,reference,6,10,oscillatingarrival,1860,164.0563241335017,1.0,100,4 6 8
+demands100,Cost239,deeprmsa,11,52,constanterlang,7670,1307.9551100683284,1.0,100,4 6 8
+demands100,Cost239,deeprmsa,11,52,mouseelephant,7670,1307.9551100683284,1.0,100,4 6 8
+demands100,Cost239,deeprmsa,11,52,oscillatingarrival,8990,970.4690325217565,1.0,100,4 6 8
+demands100,Epoch,reference,6,14,constanterlang,2010,371.18745324823374,1.0,100,4 6 8
+demands100,Epoch,reference,6,14,mouseelephant,2010,371.18745324823374,1.0,100,4 6 8
+demands100,Epoch,reference,6,14,oscillatingarrival,2450,262.35889536186863,1.0,100,4 6 8
+demands100,Gambia,reference,7,14,constanterlang,1670,325.83546147660377,1.0,100,4 6 8
+demands100,Gambia,reference,7,14,mouseelephant,1670,325.83546147660377,1.0,100,4 6 8
+demands100,Gambia,reference,7,14,oscillatingarrival,1920,222.76976823492683,1.0,100,4 6 8
+demands100,Gblnet,reference,8,14,constanterlang,1500,286.981504320692,1.0,100,4 6 8
+demands100,Gblnet,reference,8,14,mouseelephant,1500,286.981504320692,1.0,100,4 6 8
+demands100,Gblnet,reference,8,14,oscillatingarrival,2010,200.49273569202495,1.0,100,4 6 8
+demands100,Getnet,reference,6,14,constanterlang,2010,371.18745324823374,1.0,100,4 6 8
+demands100,Getnet,reference,6,14,mouseelephant,2010,371.18745324823374,1.0,100,4 6 8
+demands100,Getnet,reference,6,14,oscillatingarrival,2450,262.35889536186863,1.0,100,4 6 8
+demands100,Heanet,reference,4,8,constanterlang,1650,244.81735316836622,1.0,100,4 6 8
+demands100,Heanet,reference,4,8,mouseelephant,1650,244.81735316836622,1.0,100,4 6 8
+demands100,Heanet,reference,4,8,oscillatingarrival,1690,178.94960007055812,1.0,100,4 6 8
+demands100,HiberniaIreland,reference,6,12,constanterlang,1650,291.3747868508099,1.0,100,4 6 8
+demands100,HiberniaIreland,reference,6,12,mouseelephant,1650,291.3747868508099,1.0,100,4 6 8
+demands100,HiberniaIreland,reference,6,12,oscillatingarrival,2130,210.25638566972208,1.0,100,4 6 8
+demands100,Iinet,reference,8,18,constanterlang,2460,389.349644221565,1.0,100,4 6 8
+demands100,Iinet,reference,8,18,mouseelephant,2460,389.349644221565,1.0,100,4 6 8
+demands100,Iinet,reference,8,18,oscillatingarrival,3050,290.985446628228,1.0,100,4 6 8
+demands100,Ilan,reference,6,12,constanterlang,2000,274.4971687939163,1.0,100,4 6 8
+demands100,Ilan,reference,6,12,mouseelephant,2000,274.4971687939163,1.0,100,4 6 8
+demands100,Ilan,reference,6,12,oscillatingarrival,2170,209.52786113243295,1.0,100,4 6 8
+demands100,Layer42,reference,6,14,constanterlang,2010,371.18745324823374,1.0,100,4 6 8
+demands100,Layer42,reference,6,14,mouseelephant,2010,371.18745324823374,1.0,100,4 6 8
+demands100,Layer42,reference,6,14,oscillatingarrival,2450,262.35889536186863,1.0,100,4 6 8
+demands100,Napnet,reference,6,14,constanterlang,2340,344.17126894494214,1.0,100,4 6 8
+demands100,Napnet,reference,6,14,mouseelephant,2340,344.17126894494214,1.0,100,4 6 8
+demands100,Napnet,reference,6,14,oscillatingarrival,2800,259.71460228117195,1.0,100,4 6 8
+demands100,Netrail,reference,6,16,constanterlang,2680,420.9334909303986,1.0,100,4 6 8
+demands100,Netrail,reference,6,16,mouseelephant,2680,420.9334909303986,1.0,100,4 6 8
+demands100,Netrail,reference,6,16,oscillatingarrival,3270,314.72113106245786,1.0,100,4 6 8
+demands100,Nordu1989,reference,5,8,constanterlang,1140,197.7868908295377,1.0,100,4 6 8
+demands100,Nordu1989,reference,5,8,mouseelephant,1140,197.7868908295377,1.0,100,4 6 8
+demands100,Nordu1989,reference,5,8,oscillatingarrival,1400,139.3721000303089,1.0,100,4 6 8
+demands100,Nordu2005,reference,6,12,constanterlang,1650,291.37478685081,1.0,100,4 6 8
+demands100,Nordu2005,reference,6,12,mouseelephant,1650,291.37478685081,1.0,100,4 6 8
+demands100,Nordu2005,reference,6,12,oscillatingarrival,2130,210.25638566972208,1.0,100,4 6 8
+demands100,NsfnetChen,deeprmsa,14,44,constanterlang,5000,815.6301246375082,1.0,100,4 6 8
+demands100,NsfnetChen,deeprmsa,14,44,mouseelephant,5000,815.6301246375082,1.0,100,4 6 8
+demands100,NsfnetChen,deeprmsa,14,44,oscillatingarrival,6090,605.2712611457192,1.0,100,4 6 8
+demands100,Sanren,reference,7,14,constanterlang,1650,300.8578816020989,1.0,100,4 6 8
+demands100,Sanren,reference,7,14,mouseelephant,1650,300.8578816020989,1.0,100,4 6 8
+demands100,Sanren,reference,7,14,oscillatingarrival,2150,215.18747999687284,1.0,100,4 6 8
+demands100,Telecomserbia,reference,6,12,constanterlang,1660,292.5678033228958,1.0,100,4 6 8
+demands100,Telecomserbia,reference,6,12,mouseelephant,1660,292.5678033228958,1.0,100,4 6 8
+demands100,Telecomserbia,reference,6,12,oscillatingarrival,2250,207.40438045417855,1.0,100,4 6 8

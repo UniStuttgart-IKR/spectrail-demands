@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="x" attr.type="string" for="node" id="x"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="y" attr.type="string" for="node" id="y"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="label">Galway</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.27194</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="x">119.0</data>
+      <data key="xcoord">53.27194</data>
+      <data key="ycoord">-9.04889</data>
+      <data key="Country">Ireland</data>
+      <data key="y">104.0</data>
+      <data key="Longitude">-9.04889</data>
+    </node>
+    <node id="1">
+      <data key="label">Limerick</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">52.66472</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="x">100.0</data>
+      <data key="xcoord">52.66472</data>
+      <data key="ycoord">-8.62306</data>
+      <data key="Country">Ireland</data>
+      <data key="y">149.0</data>
+      <data key="Longitude">-8.62306</data>
+    </node>
+    <node id="2">
+      <data key="label">Cork</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">51.89861</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="x">90.0</data>
+      <data key="xcoord">51.89861</data>
+      <data key="ycoord">-8.49583</data>
+      <data key="Country">Ireland</data>
+      <data key="y">273.0</data>
+      <data key="Longitude">-8.49583</data>
+    </node>
+    <node id="3">
+      <data key="label">Kilcarbery</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.34399</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="x">270.0</data>
+      <data key="xcoord">53.34399</data>
+      <data key="ycoord">-6.26719</data>
+      <data key="Country">Ireland</data>
+      <data key="y">269.0</data>
+      <data key="Longitude">-6.26719</data>
+    </node>
+    <edge id="e1" source="0" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="1" target="2">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="1" target="3">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="2" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="2" target="3">
+      <data key="fiberslots">320</data>
+    </edge>
+    <edge id="e1" source="3" target="0">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="3" target="1">
+      <data key="fiberslots">320</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e7" source="3" target="2">
+      <data key="fiberslots">320</data>
+    </edge>
+  </graph>
+</graphml>

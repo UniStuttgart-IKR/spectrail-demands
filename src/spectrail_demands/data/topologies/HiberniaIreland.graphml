@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="oxc" attr.type="boolean" for="node" id="oxc"/>
+  <key attr.name="routerports" attr.type="long" for="node" id="routerports"/>
+  <key attr.name="ycoord" attr.type="float" for="node" id="ycoord"/>
+  <key attr.name="Country" attr.type="string" for="node" id="Country"/>
+  <key attr.name="Longitude" attr.type="float" for="node" id="Longitude"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <key attr.name="Internal" attr.type="long" for="node" id="Internal"/>
+  <key attr.name="Latitude" attr.type="float" for="node" id="Latitude"/>
+  <key attr.name="xcoord" attr.type="float" for="node" id="xcoord"/>
+  <key attr.name="id" attr.type="string" for="node" id="id"/>
+  <key attr.name="type" attr.type="string" for="node" id="type"/>
+  <key attr.name="fiberslots" attr.type="long" for="node" id="fiberslots"/>
+  <key attr.name="key" attr.type="long" for="node" id="key"/>
+  <key attr.name="LinkLabel" attr.type="string" for="node" id="LinkLabel"/>
+  <graph id="main" edgedefault="directed">
+    <node id="0">
+      <data key="label">Dublin</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.34399</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">53.34399</data>
+      <data key="ycoord">-6.26719</data>
+      <data key="Country">Ireland</data>
+      <data key="type">Large Node</data>
+      <data key="Longitude">-6.26719</data>
+    </node>
+    <node id="1">
+      <data key="label">Galway</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.27194</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">53.27194</data>
+      <data key="ycoord">-9.04889</data>
+      <data key="Country">Ireland</data>
+      <data key="type">Small Node</data>
+      <data key="Longitude">-9.04889</data>
+    </node>
+    <node id="2">
+      <data key="label">Limerick</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">52.66472</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">52.66472</data>
+      <data key="ycoord">-8.62306</data>
+      <data key="Country">Ireland</data>
+      <data key="type">Small Node</data>
+      <data key="Longitude">-8.62306</data>
+    </node>
+    <node id="3">
+      <data key="label">Cork</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">51.89861</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">51.89861</data>
+      <data key="ycoord">-8.49583</data>
+      <data key="Country">Ireland</data>
+      <data key="type">Small Node</data>
+      <data key="Longitude">-8.49583</data>
+    </node>
+    <node id="4">
+      <data key="label">Waterford</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">52.25833</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">52.25833</data>
+      <data key="ycoord">-7.11194</data>
+      <data key="Country">Ireland</data>
+      <data key="type">Small Node</data>
+      <data key="Longitude">-7.11194</data>
+    </node>
+    <node id="5">
+      <data key="label">Portlaioise</data>
+      <data key="Internal">1</data>
+      <data key="Latitude">53.03441</data>
+      <data key="oxc">true</data>
+      <data key="routerports">20</data>
+      <data key="xcoord">53.03441</data>
+      <data key="ycoord">-7.29979</data>
+      <data key="Country">Ireland</data>
+      <data key="type">Small Node</data>
+      <data key="Longitude">-7.29979</data>
+    </node>
+    <edge id="e0" source="0" target="4">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e1" source="0" target="5">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e2" source="1" target="2">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e3" source="2" target="1">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e4" source="2" target="3">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e5" source="2" target="5">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e6" source="3" target="2">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e7" source="3" target="4">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e8" source="4" target="0">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e9" source="4" target="3">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e10" source="5" target="0">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+    <edge id="e11" source="5" target="2">
+      <data key="fiberslots">320</data>
+      <data key="LinkLabel">Blue Link</data>
+      <data key="key">0</data>
+    </edge>
+  </graph>
+</graphml>
